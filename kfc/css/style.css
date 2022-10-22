@@ -1,0 +1,74 @@
+/* index  -----------------------------------------------------*/
+/* header  */
+.header img{
+    width: 100px;
+    height: 100px;
+}
+.header h1 {
+    background: red;
+    color: white;
+}
+.header ul{
+    padding-left: 0px;
+    font-size: 20px;
+}
+/* intro  */
+.intro {
+    background: #A52A2A;
+    margin-top: 33.2px;
+}
+.intro h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+.intro p {
+    color: white;
+    font-size: 30px;
+    text-align: justify;
+}
+.intro p b {
+    color: black;
+    font-style: italic;
+}
+.intro img {
+    width: 50%;
+}
+/* content  */
+.content {
+    background: #A52A2A;
+}
+.content h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+.content ul {
+    color: white;
+    font-size: 25px;
+}
+.content img {
+    width: 50%;
+}
+/* menu */
+#title {
+    color: black;
+    text-align: center;
+}
+/* news --------------------------------------------------------- */
+.news {
+    background: grey;
+    font-size: 20px;
+}
+.news h2 {
+    text-align: center;
+    color: #A52A2A;
+    font-size: 40px;
+}
+.news div {
+    background: white;
+    width: 60%;
+}
+#poster {
+    width: 100%;
+}
