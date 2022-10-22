@@ -335,7 +335,7 @@
 .footer__item {
     float: left;
     width: calc(100%/3);
-    padding-right: 30px;
+    padding-right: 45px;
     line-height: 20px;
 }
 
