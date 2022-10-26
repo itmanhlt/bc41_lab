@@ -155,3 +155,18 @@ header {
 .slick-content .slick-dots li.slick-active button::before{
     color: #e62b4a;
 }
+.service__bottom .item::after {
+    content: '';
+    height: 0;
+    width: 5px;
+    background-color: #e62b4a;
+    display: block;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: all .2s linear;
+}
+.service__bottom .item:hover::after{
+    height: 100%;
+}
