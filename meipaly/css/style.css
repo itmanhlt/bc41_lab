@@ -141,3 +141,17 @@ header {
     align-items: center;
     position: relative;
 }
+.service__bottom .item i {
+    font-size: 3.1rem;
+    color: #888888;
+}
+.service__bottom .item p {
+    font-size: 0.9rem;
+}
+.slick-content .slick-dots li button::before{
+    color: #ffffff;
+    font-size: 00.9rem;
+}
+.slick-content .slick-dots li.slick-active button::before{
+    color: #e62b4a;
+}
