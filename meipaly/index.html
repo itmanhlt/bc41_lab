@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meipaly</title>
+    
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- slick CND  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- main css  -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- start header  -->
+    <header>
+        <div class="header__content">
+            <a href="#" class="header__logo">
+                <i class="fab fa-atlassian"></i>
+                <span>meipaly</span>
+            </a>
+            <nav>
+                <ul>
+                    <li class="active"><a href="#">HOME</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="#">SHOWCASE</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- start carousel  -->
+    <section class="carousel">
+        <div class="carousel__content">
+            <p>WELCOME TO MEIPALY AGENCY</p>
+            <h1>WELCOME TO <br> MEIPALY AGENCY</h1>
+            <button>READ MORE</button>
+            <div class="carousel__scroll">
+                <i class="fa fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+    <!-- start service  -->
+    <section class="service">
+        <div class="service__container">
+            <div class="service__top">
+                <p>SERVICES WE ARE OFFERING</p>
+                <h1>WE DESIGN DIGITAL PRODUCTS THAT HELP GROW BUSINESSES.</h1>
+                <p>We are committed to providing our customers with exceptional service while offering <br>
+                    our employees the best training.</p>
+            </div>
+            <div class="service__bottom">
+                <div class="slick-content">
+                    <div class="item">
+                        <i class="fa fa-dice-d6"></i>
+                        <p>APP MOBILE <br> DEVELOPMENT</p>
+                    </div>
+                    <div class="item">
+                        <i class="fab fa-autoprefixer"></i>
+                        <p>DIGITAL <br> MARKETING</p>
+                    </div>
+                    <div class="item">
+                        <i class="fab fa-500px"></i>
+                        <p>SEO &amp; CONTENT <br>WRITING</p>
+                    </div>
+                    <div class="item">
+                        <i class="fa fa-blog"></i>
+                        <p>
+                            WEBSITE<br>DEVELOPMENT
+                        </p>
+                    </div>
+                    <div class="item">
+                        <i class="fab fa-battle-net"></i>
+                        <p>
+                            SEO &amp; CONTENT <br>WRITING
+                        </p>
+                    </div>
+                    <div class="item">
+                        <i class="fa fa-memory"></i>
+                        <p>
+                            APP MOBILE<br>DEVELOPMENT
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="blog"></section>
+    <section class="number"></section>
+    <section class="experience"></section>
+    <section class="contact"></section>
+
+    <!-- jquery  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- slick carousel  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('.slick-content').slick({
+            infinity: true,
+            slidesToShow: 5,
+            autoplay: true,
+            autoplaySpeed: 4000,
+            speed: 1000,
+            dots: true,
+        });
+    </script>
+    </html>
