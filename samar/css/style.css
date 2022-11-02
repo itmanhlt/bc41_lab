@@ -29,8 +29,8 @@ button:hover {
     background-position: right center;
 }
 .container {
-    width: 79%;
-    margin: 0 auto;
+    max-width: 1199px;
+    margin: auto;
 }
 
 /* start header  */
@@ -175,12 +175,10 @@ header {
     font-size: 1.4rem;
     color: #f55f8d;
     font-weight: 700;
-    /* margin-bottom: 20px; */
 }
 .services__title h1 {
     font-size: 4.4rem;
     color: #070120;
-    /* margin-bottom: 20px; */
 }
 .services__item {
     display: flex;
